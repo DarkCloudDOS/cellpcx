@@ -1,0 +1,10 @@
+Archive:  celpcx.zip
+Zip file size: 15871 bytes, number of entries: 7
+-rw-a--     2.0 fat     4455 t- defN 97-Jun-13 12:18 CEL2PCX.PAS
+-rw-a--     2.0 fat     6498 t- defN 97-Jul-28 13:32 CELVIEW.PAS
+-rw-a--     2.0 fat     6691 t- defN 97-Jul-28 13:35 IMAGES.PAS
+-rw-a--     2.0 fat     2032 t- defN 97-Jun-13 12:11 PCX2CEL.PAS
+-rw-a--     2.0 fat    22271 t- defN 97-Jun-27 13:57 PCXVIEW.PAS
+-rw-a--     2.0 fat      938 t- defN 96-Oct-18 11:33 READ.ME!
+-rw-a--     2.0 fat     2919 t- defN 97-Jul-29 11:43 CELPCX.DOC
+7 files, 45804 bytes uncompressed, 14237 bytes compressed:  68.9%
