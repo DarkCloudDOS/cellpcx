@@ -1,0 +1,61 @@
+   ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+   º                                                        ºÛ
+   º     Borland Pascal Version 7.0                         ºÛ
+   º     CEL and PCX programs and units.                    ºÛ
+   º                                                        ºÛ
+   ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶Û
+   º                                                        ºÛ
+   º     Copyright (C) 1997 Diego Iastrubni                 ºÛ
+   º                                                        ºÛ
+   ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼Û
+    ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+
+
+  ÛÛ   Û  ÛÛ  Û Û    ÛÛ Û  ŞÛİ Û Û ÛÛ
+  Û Û ÛÜÛ ÛÜÛ ÛÛ    Û   Û  Û Û Û Û Û Û
+  ÛÛ  Û Û Û Û Û Û    ÛÛ ÛÛ ŞÛİ ÛÛÛ ÛÛ
+
+
+  ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+        CEL and PCX document file
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+
+  When I got the PC-GPE I started to look it and discovered that you
+can learn from it how to read a PCX file. I was glad!!! My first real
+file format. It was not difficult and so I did a Viewer. You have it here
+(PCXView). There is also a CELViewer (works only on MCGA). You can put them
+
+  In this ZIP file there are 5 files all in pascal (.PAS):
+
+    CEL2PCX.PAS: converts between a CEL file and a PCX.
+    PCX2CEL.PAS: converts between a PCX file and a CEL.
+    IMAGES.PAS : A unit that contains procedures to load
+                 PCX, CEL and some palette functions as well.
+    PCXVIEW    : A command line PCX Viewer, works on files bigger then
+                 320x200 too.
+    CELVIEW    : A command line CEL Viewer, loads only the AA.EXE CEL's
+                 not the AA-PRO (ANI.EXE).
+
+
+  The CELView and PCXView programms are very usefull if you use the
+Norton-Commander: just add them to the extention menu and then when
+you press enter on a PCX you can view it. It is good because NC's viewer
+does not supprot CEL's and using this you can easly view them. I my self
+am using the DOS Navigator wich is a Turbo-Vision verion of NC. it works
+better thefile support is faster, and eats less memory. But it does not
+support pictures viewing. That's why I wrote those programs at the first
+time.
+
+  The PCXView also has something called SuperZoom: it is a smooth scrolling
+in XMode (it is smooth in ewvery computer) and all the pictures are viewed
+as 640x400. To zoom a picture press Z. To return press ESC.
+  It is based on the zoom from Power-View. Thanks to Ariel Keselman for
+helping me writing the Set_Chain4 procedures. And of course to ASPHIXIA's
+tutors for introducing me to graphics and X-Mode for the first time.
+
+
+
+  dark-cloud -  http://www.getcities.com/SiliconValley/Vista/1595
+                dark-cloud@geocities.com
